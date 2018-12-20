@@ -1,0 +1,573 @@
+// GAME
+
+SAVE FILE
+Assets/SaveData.txt
+
+LEVEL LAYOUT DATA FILE
+Assets/LevelLayoutData.txt
+
+FRAME DIVIDER
+1000.0
+
+FRAME RATE
+60
+
+DISPLAY WIDTH
+1024
+
+DISPLAY HEIGHT
+896
+
+ANIMATION SPEED
+60
+
+DIFFICULTIES
+3
+
+--------------------------------------------------
+
+// SCREEN UI
+
+TITLE SCREEN
+UI/title_screen.png
+
+OPTIONS SCREEN
+UI/title_screen.png
+
+BETWEEN LEVELS SCREEN
+UI/between_levels_screen.png
+
+GAME OVER SCREEN
+BlackBackground.png
+
+WIN STATE SCREEN
+BlackBackground.png
+
+BETWEEN LEVELS COUNTDOWN TIMER
+165
+
+GAME OVER COUNTDOWN TIMER
+300
+
+WIN STATE COUNTDOWN TIMER
+400
+
+NUM TITLE BUTTONS
+4
+
+NUM OPTIONS BUTTONS
+4
+
+NUM OPTIONS SWITCHES BUTTONS
+3
+
+TITLE FONT
+UI/Mario_Font.ttf 36
+
+TITLE TEXT COLOR
+255 255 255
+
+TITLE BUTTON 0
+350 528 1
+PLAY
+COMENZAR
+DEAY
+
+TITLE BUTTON 1
+350 576 1
+LOAD
+CARGAR
+DEAD
+
+TITLE BUTTON 2
+350 624 1
+OPTIONS
+OPCIONES
+DETIONS
+
+TITLE BUTTON 3
+350 672 1
+QUIT
+DEJAR
+DEIT
+
+OPTIONS BUTTON 0
+190 528 1
+DIFFICULTY
+DIFICULTAD
+DEANICULTY
+
+OPTIONS BUTTON 1
+190 576 1
+SOUND 
+RUIDO
+DEUND
+
+OPTIONS BUTTON 2
+190 624 1
+LANGUAGE 
+IDIOMA
+DEANGUAGE
+
+OPTIONS BUTTON 3
+190 672 1
+RETURN
+REGRESO
+DETURN
+
+OPTIONS SWITCH 0
+590 528 3
+EASY
+NORMAL
+HARD
+FACIL
+NORMAL
+DIFICIL
+DEASY
+DERMAL
+DERD
+
+OPTIONS SWITCH 1
+590 576 2
+ON
+OFF
+ENCENDIDA
+APAGAPO
+DEON
+DEOFF
+
+OPTIONS SWITCH 2
+590 624 1
+ENGLISH
+ESPANOL
+DEAN
+
+CURSOR
+UI/Cursor.png 64 6
+
+--------------------------------------------------
+
+// LANGUAGE
+
+NUM LANGUAGES
+3
+
+--------------------------------------------------
+
+// HUD
+
+HUD FONT
+UI/Mario_Font.ttf 32
+
+HUD TEXT COLOR
+255 255 255
+
+NUM HUD BUTTONS
+7
+
+NUM TOP SCORE BUTTONS
+2
+
+NUM BETWEEN LEVELS BUTTONS
+3
+
+NUM GAME OVER BUTTONS
+1
+
+NUM WIN STATE BUTTONS
+1
+
+NUM HUD PLACEMENTS
+6 2 3
+
+HUD DISPLAY 0
+92 68 1
+MARIO
+MARIO
+DEANO
+
+HUD DISPLAY 1
+92 96 1
+000000
+000000
+000000
+
+HUD DISPLAY 2
+396 96 1
+COINS
+COINS
+COINS
+
+HUD DISPLAY 3
+588 68 1
+WORLD
+MUNDO
+DERLD
+
+HUD DISPLAY 4
+588 96 1
+ 0-0 
+ 0-0 
+ 0-0 
+
+HUD DISPLAY 5
+796 68 1
+TIME
+HORA
+DEME
+
+HUD DISPLAY 6
+796 96 1
+000
+000
+000
+
+TOP SCORE BUTTON 0
+380 732 1
+TOP-
+MAS-
+DEP-
+
+TOP SCORE BUTTON 1
+540 732 1
+000000
+000000
+000000
+
+BETWEEN LEVELS BUTTON 0
+352 320 1
+WORLD
+MUNDO
+DERLD
+
+BETWEEN LEVELS BUTTON 1
+544 320 1
+0-0
+0-0
+0-0
+
+BETWEEN LEVELS BUTTON 2
+576 448 1
+0
+0
+0
+
+GAME OVER BUTTON 0
+352 480 1
+GAME OVER
+FIN JUEGO
+DEME DEER
+
+WIN STATE BUTTON 0
+280 480 1
+CONGRATULATIONS!
+FELICITACIONES!
+DENGRATULATIONS!
+
+--------------------------------------------------
+
+// MUSIC
+
+NUM MUSIC
+7
+
+OVERWORLD THEME
+Assets/Audio/smb_overworld.wav
+
+OVERWORLD FAST THEME
+Assets/Audio/smb_overworld_fast.wav
+
+UNDERGROUND THEME
+Assets/Audio/smb_underground.wav
+
+UNDERGROUND FAST THEME
+Assets/Audio/smb_underground_fast.wav
+
+DEATH THEME
+Assets/Audio/smb_mariodie.wav
+
+GAMEOVER THEME
+Assets/Audio/smb_gameover.wav
+
+WORLD CLEAR THEME
+Assets/Audio/smb_world_clear.wav
+
+--------------------------------------------------
+
+// SOUND EFFECTS
+
+NUM SOUND EFFECTS
+7
+
+PAUSE SOUND
+Assets/Audio/smb_pause.wav
+
+JUMP SMALL SOUND
+Assets/Audio/smb_jump-small.wav
+
+STOMP SOUND
+Assets/Audio/smb_stomp.wav
+
+BREAK BLOCK SOUND
+Assets/Audio/smb_breakblock.wav
+
+FLAGPOLE SOUND
+Assets/Audio/smb_flagpole.wav
+
+COIN SOUND
+Assets/Audio/smb_coin.wav
+
+1-UP SOUND
+Assets/Audio/smb_1-up.wav
+
+--------------------------------------------------
+
+// INTERACTABLE BACKGROUND ONBJECTS
+
+BACKGROUND ANIM SPEED
+6
+
+BACKGROUND SPRITE SIZE
+64 64
+
+GROUND BACKGROUND ANIM
+GroundTile.png 1 1 1
+
+SOLID BLOCK BACKGROUND ANIM
+SquareTile.png 1 1 1
+
+BRICK BACKGROUND ANIM
+BrickTile.png 1 1 1
+
+QUESTION BLOCK NORMAL BACKGROUND ANIM
+RandTile.png 5 1 5
+
+FLAG POLE BACKGROUND ANIM
+FlagPolePart.png 1 1 1
+
+FLAG POLE TOP BACKGROUND ANIM
+FlagPoleTop.png 1 1 1
+
+FLAG BACKGROUND ANIM
+Flag.png 1 1 1
+
+PIPE BODY LEFT BACKGROUND ANIM
+BodyLeftPipe.png 1 1 1
+
+PIPE BODY RIGHT BACKGROUND ANIM
+BodyRightPipe.png 1 1 1
+
+PIPE TOP LEFT BACKGROUND ANIM
+TopLeftPipe.png 1 1 1
+
+PIPE TOP RIGHT BACKGROUND ANIM
+TopRightPipe.png 1 1 1
+
+--------------------------------------------------
+
+// MARIO SPRITES
+
+MARIO ANIM SPEED
+3
+
+NUM MARIO ANIM STATES
+1
+
+MARIO SPRITE SIZE
+64 128
+
+MARIO IDLE ANIM
+Reg_Mario/Small/RMS_Idle.png 1 1 1
+
+MARIO WALK ANIM
+Reg_Mario/Small/RMS_Walking.png 4 1 4
+
+MARIO JUMP ANIM
+Reg_Mario/Small/RMS_Jumping.png 1 1 1
+
+--------------------------------------------------
+
+// GOOMBA SPRITES
+
+GOOMBA ANIM SPEED
+12
+
+GOOMBA SPRITE SIZE
+64 64
+
+GOOMBA WALK ANIM
+Enemies/GoombaWalk.png 2 1 2
+
+--------------------------------------------------
+
+// COIN SPRITES
+
+COIN ANIM SPEED
+12
+
+COIN SPRITE SIZE
+64 64
+
+COIN NORMAL ANIM
+Coins.png 6 1 6
+
+--------------------------------------------------
+
+// GAMEOBJECT DATA
+
+JUMP SPEED
+8
+
+CENTER DISTANCE
+447
+
+GOOMBA POINTS
+100
+
+COIN POINTS
+200
+
+BRICK POINTS
+150
+
+--------------------------------------------------
+
+// PHYSICS
+
+PHYSICS PARAMS
+4.0 6.25 10.25 0.1484375 1.0
+
+HITBOX SIZE
+64 64
+
+--------------------------------------------------
+
+// GRID MANAGER
+
+GRID SCALER
+64
+
+IMAGE SCALER
+1
+
+--------------------------------------------------
+
+// LEVEL MANAGER
+
+TOTAL LEVELS
+3
+
+--------------------------------------------------
+
+// POWERUP
+
+FOOD BUFFER
+Food.png
+
+QUICKENER BUFFER
+Quickener.png
+
+SLOWER BUFFER
+Slower.png
+
+BONUS BUFFER
+Bonus.png
+
+NUM SPRITES
+4
+
+NUM ANIM COLS
+4
+
+NUM ANIM ROWS
+1
+
+SPRITE WIDTH
+100
+
+SPRITE HEIGHT
+100
+
+BONUS MULTIPLIER
+2
+
+--------------------------------------------------
+
+// LEVEL 1
+
+GAME WORLD 1
+1
+
+WORLD LEVEL 1
+1
+
+LEVEL TYPE 1
+0
+
+LEVEL WIDTH 1
+212
+
+LEVEL HEIGHT 1
+14
+
+LEVEL TIME LIMIT 1
+500
+400
+250
+
+BACKGROUND BUFFER 1
+BlueBackground.png
+
+--------------------------------------------------
+
+// LEVEL 2
+
+GAME WORLD 2
+1
+
+WORLD LEVEL 2
+2
+
+LEVEL TYPE 2
+2
+
+LEVEL WIDTH 2
+192
+
+LEVEL HEIGHT 2
+14
+
+LEVEL TIME LIMIT 2
+500
+400
+250
+
+BACKGROUND BUFFER 2
+BlackBackground.png
+
+--------------------------------------------------
+
+// LEVEL 3
+
+GAME WORLD 3
+1
+
+WORLD LEVEL 3
+3
+
+LEVEL TYPE 3
+0
+
+LEVEL WIDTH 3
+176
+
+LEVEL HEIGHT 3
+14
+
+LEVEL TIME LIMIT 3
+500
+400
+250
+
+BACKGROUND BUFFER 3
+BlueBackground.png
